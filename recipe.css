@@ -1,0 +1,131 @@
+
+
+body {
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.category{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px 30px;
+    margin-top: -21px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+div.category {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.content {
+    background-color: white;
+    margin: 40px 10% 80px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 300px;
+
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1);
+    overflow: visible;
+}
+
+div.separator {
+    background-color: black;
+    height: 1px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+p.description {
+    display: inline-block;
+    max-width: 500px;
+}
+
+div.info {
+    position: relative;
+}
+
+table.info {
+    height: 80px;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: #6c829dc0;
+    color: white;
+}
+
+img.info {
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+div.col {
+    width: 45%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+div.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 7px solid #6c829dc0;
+    padding-bottom: 5px;
+}
+
+div.col1 {
+    text-align: center;
+}
+
+div.col2 {
+    float: right;
+}
+
+div.ingredients p {
+    border: 1px solid #6c829dc0;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+table.instructions p.number {
+    background-color: #6c829dc0;
+    border-radius: 60%;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+    margin: 0px;
+}
+
+table.instructions td.instruction_step {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table.instructions td {
+    vertical-align: top;
+}
+
+table.instructions tr {
+    height: 40px;
+}
